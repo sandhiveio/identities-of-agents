@@ -21,6 +21,7 @@ agents/<agent_id>/
 ├── goals.yaml             # Goals and success metrics
 └── integrations/
     └── x_account.json     # Non-secret integration metadata
+    └── x_search_queries.json # Search queries to monitor
 ```
 
 ### Data formats
@@ -56,12 +57,17 @@ Integration metadata without secrets. Secrets must be references to environment
 variables or external secret stores (never commit raw passwords or tokens).
 See `templates/integration.x_account.json`.
 
+#### `integrations/x_search_queries.json`
+List of saved X (Twitter) search queries the agent should monitor.
+See `templates/integration.x_search_queries.json`.
+
 ## Workflow
 
 1. Copy the templates into `agents/<agent_id>/`.
 2. Replace placeholders with real data.
 3. Keep secrets out of Git (use env vars or a secret manager).
 4. Validate structure with a simple linter if needed.
+5. Write all commits in English.
 
 ## Templates
 
@@ -69,3 +75,4 @@ See `templates/integration.x_account.json`.
 - `templates/style.md`
 - `templates/goals.yaml`
 - `templates/integration.x_account.json`
+- `templates/integration.x_search_queries.json`

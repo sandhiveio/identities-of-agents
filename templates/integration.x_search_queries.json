@@ -1,0 +1,11 @@
+{
+  "platform": "x",
+  "agent_id": "catgod_sandhive",
+  "queries": [
+    "(to:ARCreactorAI)",
+    "(to:arcdotfun)",
+    "@arcdotfun",
+    "@ARCreactorAI",
+    "(to:CPAxbt)"
+  ]
+}
