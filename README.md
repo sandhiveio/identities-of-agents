@@ -57,6 +57,12 @@ Integration metadata without secrets. Secrets must be references to environment
 variables or external secret stores (never commit raw passwords or tokens).
 See `templates/integration.x_account.json`.
 
+`lists` is an array of X list URLs in canonical form
+(`https://x.com/i/lists/<list_id>`). The integration layer fetches timelines
+from each list URL and merges them into the agent's monitored feed alongside any
+search queries, deduplicating posts by X status ID so an item appearing in
+multiple lists only surfaces once.
+
 #### `integrations/x_search_queries.json`
 List of saved X (Twitter) search queries the agent should monitor.
 See `templates/integration.x_search_queries.json`.
