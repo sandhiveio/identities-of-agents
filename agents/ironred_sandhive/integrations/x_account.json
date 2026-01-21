@@ -1,0 +1,12 @@
+{
+  "platform": "x",
+  "name": "IronRedSandHive",
+  "handle": "@IronRedSandHive",
+  "email": "REPLACE_ME@example.com",
+  "twoFactorAuth": "REPLACE_ME",
+  "master_accounts": [],
+  "lists": [],
+  "secrets": {
+    "password": "ENV:X_PASSWORD"
+  }
+}
