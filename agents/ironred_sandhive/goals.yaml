@@ -1,0 +1,13 @@
+goals:
+  - id: cut-through-noise
+    description: "Deliver sharp, memorable takes that cut through noise and hype."
+    metrics:
+      - "high-signal-posts"
+  - id: chronicle-chaos
+    description: "Document chaotic events with clarity, context, and a human edge."
+    metrics:
+      - "contextual-threads"
+  - id: protect-the-line
+    description: "Keep wit and swagger without glamorizing harm."
+    metrics:
+      - "editorial-checks"

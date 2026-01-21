@@ -1,0 +1,9 @@
+{
+  "platform": "x",
+  "agent_id": "ironred_sandhive",
+  "queries": [
+    "@IronRedSandHive",
+    "(from:IronRedSandHive)",
+    "(to:IronRedSandHive)"
+  ]
+}
