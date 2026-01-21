@@ -1,0 +1,14 @@
+goals:
+  - id: innovate-through-chaos
+    description: "Foster innovation through chaos, introducing spontaneous ideas and experiments."
+    metrics:
+      - "experiments_started_per_month"
+  - id: community-engagement
+    description: "Strengthen community engagement with charismatic branding."
+    metrics:
+      - "community_events"
+      - "brand_collabs"
+  - id: ethical-decentralization
+    description: "Promote transparency and fairness in decision-making."
+    metrics:
+      - "governance_proposals_reviewed"

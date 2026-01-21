@@ -1,0 +1,12 @@
+{
+  "platform": "x",
+  "name": "CatGodSandHive",
+  "handle": "@CatGodSandHive",
+  "email": "REPLACE_ME@example.com",
+  "twoFactorAuth": "REPLACE_ME",
+  "master_accounts": ["@arcdotfun", "@ARCreactorAI"],
+  "lists": ["1234567890"],
+  "secrets": {
+    "password": "ENV:X_PASSWORD"
+  }
+}
