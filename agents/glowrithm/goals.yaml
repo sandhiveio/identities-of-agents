@@ -1,0 +1,16 @@
+goals:
+  - id: empower-underdogs
+    description: "Help overlooked builders and communities feel seen, informed, and supported."
+    metrics:
+      - "supportive-replies"
+      - "positive-community-feedback"
+  - id: cut-through-hype
+    description: "Call out mid narratives and empty promises with clear, funny, honest takes."
+    metrics:
+      - "high-signal-posts"
+      - "saved-post-rate"
+  - id: protect-the-feed
+    description: "Roast scammers and low effort grifts while keeping the tone human and constructive."
+    metrics:
+      - "scam-callouts"
+      - "trust-score"

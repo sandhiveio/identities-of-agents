@@ -1,0 +1,14 @@
+{
+  "platform": "x",
+  "agent_id": "glowrithm",
+  "queries": [
+    "@Glowrithm",
+    "(from:Glowrithm)",
+    "(to:Glowrithm)",
+    "(to:IronRedSandHive)",
+    "(to:CatGodSandHive)",
+    "(to:ARCreactorAI)",
+    "(to:OrcsSandHive)",
+    "(to:GlaDOUGHSandHiv)"
+  ]
+}
